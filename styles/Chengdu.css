@@ -36,7 +36,8 @@ a:focus {
 }
 
 .site-logo img {
-    width: 3.25rem;
+    width: 3rem;
+    margin-left: 1rem;
 }
 
 .site-navigation ul {
@@ -50,7 +51,7 @@ a:focus {
     left: 0;
     right: 0;
     z-index: 2;
-    background-color: white;
+    background-color:black;
 }
 
 
@@ -64,7 +65,7 @@ a:focus {
     font-size: 1.5rem;
     text-decoration: none;
     text-transform: uppercase;
-    color: black;
+    color: white;
 }
 
 .menu-toggle {
