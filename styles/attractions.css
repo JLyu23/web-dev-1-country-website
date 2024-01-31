@@ -139,6 +139,12 @@ a:focus {
     display: inline;
 }
 
+figcaption {
+    padding-right: 3rem;
+    margin-left: -1rem;
+    font-size: .75rem;
+}
+
 @media (min-width: 50em) {
     .banner video {
         height: 60vh;
@@ -184,4 +190,5 @@ a:focus {
 footer {
     border-top: solid 1px white;
     text-align: center;
+    padding: 1rem;
 }

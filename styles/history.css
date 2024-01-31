@@ -158,4 +158,5 @@ p {
 footer {
     border-top: solid 1px white;
     text-align: center;
+    padding: 1rem;
 }
