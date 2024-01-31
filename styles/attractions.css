@@ -112,9 +112,11 @@ a:focus {
 }
 
 .banner h1 {
-    padding: 2rem 3rem 1rem;
     text-align: center;
     width: 100%;
+    position: absolute;
+    top: 55%;
+    font-size: 2rem;
 }
 
 .banner video {
@@ -146,6 +148,11 @@ figcaption {
 }
 
 @media (min-width: 50em) {
+    .banner h1 {
+        top: 60%;
+        font-size: 3rem;
+    }
+
     .banner video {
         height: 60vh;
     }
