@@ -103,7 +103,6 @@ a:focus {
         justify-content: flex-end;
         position: relative;
         top: 0;
-        background-color: transparent;
     }
 
     .site-navigation a {
