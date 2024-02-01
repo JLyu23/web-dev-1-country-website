@@ -29,10 +29,14 @@ a:focus {
 }
 
 .site-header {
+    position: sticky;
+    top: 0;
+    left: 0;
     padding: 0 1rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    z-index: 100;
 }
 
 .site-logo img {
@@ -62,7 +66,7 @@ a:focus {
 .site-navigation a {
     display: block;
     padding: 1rem;
-    font-size: 1.5rem;
+    font-size: 1rem;
     text-decoration: none;
     text-transform: uppercase;
     color: white;
@@ -99,6 +103,7 @@ a:focus {
         justify-content: flex-end;
         position: relative;
         top: 0;
+        background-color: transparent;
     }
 
     .site-navigation a {
