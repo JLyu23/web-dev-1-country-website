@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attractions | Chengdu</title>
+    <link rel="icon" href="favicon.ico" sizes="any"> 
+    <link rel="icon" href="favicon.svg" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="apple-touch-icon.png"/>
+    <link rel="manifest" href="site.webmanifest" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@300;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/fwd-normalize.css">
+    <link rel="stylesheet" href="styles/attractions.css">
+    <script src="scripts/navigation.js" defer></script>
+</head>
+<body>
+    <div class="site-wrapper">
+        <header class="site-header">
+            <a href="Chengdu.html" class="site-logo">
+                <img src="media/chengdu-logo.png" alt="Chengdu Icon" class="chengdu-icon">
+            </a>
+            <nav class="site-navigation" id="site-navigation">
+                <button class="menu-toggle" aria-controls="header-menu" aria-expanded="false" aria-label="Menu Toggle">
+					<svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24">
+						<title>Menu Icon</title>
+						<path fill="#fff" d="M24 6h-24v-4h24v4zm0 4h-24v4h24v-4zm0 8h-24v4h24v-4z"></path>
+					</svg>
+				</button>
+                <ul class="nav-menu" id="header-menu">
+                    <li><a href="Chengdu.html">Home</a></li> 
+                    <li><a href="history.html">History</a></li>   
+                    <li><a href="attractions.html">Attractions</a></li> 
+                    <li><a href="food.html">Food</a></li>
+                    <li><a href="credits.html">Credits</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <main class="site-main">
+            <header class="banner">
+                <h1 class="banner-h1">Attractions</h1>
+                <video title="A panda is eating bamboo" autoplay muted loop playsinline>
+                    <source src="media/panda.mp4" type="video/mp4">
+                    <source src="media/panda.webm" type="video/webm">
+                    <p>Your browser does not support the video element.</p>
+                </video>
+                <figure class="blockquote">
+                    <blockquote cite="https://cdwglj.chengdu.gov.cn/cdwglj/c134542/2020-01/06/content_fe3e82427f68472ea79d56caccfdad81.shtml">
+                        <p>Chengdu, a city you never want to leave once you set your foot in.</p>
+                    </blockquote>
+                    <figcaption>
+                        <em>Director Yimou Zhang</em>
+                    </figcaption>
+                </figure>
+            </header>
+            <section class="attractions">
+                <article class="attractions-card">
+                    <img src="media/leshan-giant-buddha.jpg" alt="Leshan Giant Buddha">
+                    <h2>Leshan Giant Buddha</h2>
+                </article>
+                <article class="attractions-card">
+                    <img src="media/wenshu.jpg" alt="Wenshu Monastery">
+                    <h2>Wenshu Monastery</h2>
+                </article>
+                <article class="attractions-card">
+                    <img src="media/ifs.jpg" alt="IFS on Chunxi Road">
+                    <h2>Chunxi Road</h2>
+                </article>
+                <article class="attractions-card">
+                    <img src="media/huahua.jpg" alt="Giant Panda Hehua">
+                    <h2>Research Base of Giant Panda Breeding</h2>
+                </article>
+                <article class="attractions-card">
+                    <img src="media/jinli.jpg" alt="Jinli Ancient Street">
+                    <h2>Jinli Ancient Street</h2>
+                </article>
+
+            </section>
+        </main>
+        <footer>©2024 Jenny Lyu</footer>
+    </div>
+</body>
+</html>
